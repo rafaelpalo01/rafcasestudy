@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       
       
       <div className="relative w-auto h-96">
-      <Image src={"/1.jpg"} layout="fill"></Image>
+      <Image src={"/1.jpg"} layout="fill" alt="stew"></Image>
       </div>
       <div className="bg-gray-200 border-b border text-gray-400 pl-2 pb-2 pt-2">Construction and Civil Engineering Training Courses</div>
 
@@ -33,13 +33,13 @@ const Home: NextPage = () => {
         </div>
       </div>
       <div className="sticky w-96 h-80 ml-28 mt-4 scale-150">
-      <Image src={"/city.png"} layout="fill"></Image>
+      <Image src={"/city.png"} layout="fill" alt="stew"></Image>
       </div>
       </div>
 
       <div className="relative">
       <div className="relative w-auto h-96">
-      <Image src={"/sunset.jpg"} layout="fill"></Image>
+      <Image src={"/sunset.jpg"} layout="fill" alt="stew"></Image>
       </div>
       <div className="absolute top-20 ml-80 text-center">
       <div className="text-white font-bold text-4xl border-t-4">MAKE YOUR SUCCESS A PRIORITY.</div>
@@ -75,7 +75,7 @@ const Home: NextPage = () => {
       <div className="pt-8">
       <div className="bg-white rounded-xl overflow-hidden lg:h-auto h-80 shadow-md relative hover:shadow-xl">
       <div className="relative w-auto h-48">
-        <Image src={"/2.jpg"} layout="fill"></Image></div>
+        <Image src={"/2.jpg"} layout="fill" alt="stew"></Image></div>
         <div className="text-md">
         <Link href="/ce101">
         <div className="hover:text-gray-500 cursor-pointer">
@@ -94,7 +94,7 @@ const Home: NextPage = () => {
       <div className="pt-8">
       <div className="bg-white rounded-xl overflow-hidden lg:h-auto h-80 shadow-md relative hover:shadow-xl">
       <div className="relative w-auto h-48">
-        <Image src={"/3.jpg"} layout="fill"></Image></div>
+        <Image src={"/3.jpg"} layout="fill" alt="stew"></Image></div>
         <div className="text-md">
         <Link href="/ce102">
         <div className="hover:text-gray-500 cursor-pointer">
@@ -113,7 +113,7 @@ const Home: NextPage = () => {
       <div className="pt-8">
       <div className="bg-white rounded-xl overflow-hidden lg:h-auto h-80 shadow-md relative hover:shadow-xl">   
       <div className="relative w-auto h-48">
-        <Image src={"/4.jpg"} layout="fill"></Image></div>
+        <Image src={"/4.jpg"} layout="fill" alt="stew"></Image></div>
         <div className="text-md">
         <Link href="/ce103">
         <div className="hover:text-gray-500 cursor-pointer">
@@ -132,7 +132,7 @@ const Home: NextPage = () => {
       <div className="pt-8">
       <div className="bg-white rounded-xl overflow-hidden lg:h-auto h-80 shadow-md relative hover:shadow-xl">
       <div className="relative w-auto h-48">
-        <Image src={"/5.jpg"} layout="fill"></Image></div>
+        <Image src={"/5.jpg"} layout="fill" alt="stew"></Image></div>
         <div className="text-md">
         <Link href="/ce104">
         <div className="hover:text-gray-500 cursor-pointer">
@@ -152,7 +152,7 @@ const Home: NextPage = () => {
       <div className="pt-8">
       <div className="bg-white rounded-xl overflow-hidden lg:h-auto h-80 shadow-md relative hover:shadow-xl">
       <div className="relative w-auto h-48">
-        <Image src={"/6.jpg"} layout="fill"></Image></div>
+        <Image src={"/6.jpg"} layout="fill" alt="stew"></Image></div>
         <div className="text-md">
         <div className="ml-2 font-bold font-serif">Course Title: Advance Course for Scaffold Erectors</div>
         <div className="block ml-2 text-sm text-gray-600">Code: CE105</div>
@@ -168,7 +168,7 @@ const Home: NextPage = () => {
       <div className="pt-8">
       <div className="bg-white rounded-xl overflow-hidden lg:h-auto h-80 shadow-md relative hover:shadow-xl">
       <div className="relative w-auto h-48">
-        <Image src={"/7.jpg"} layout="fill"></Image></div>
+        <Image src={"/7.jpg"} layout="fill" alt="stew"></Image></div>
         <div className="text-md">
         <div className="ml-2 font-bold font-serif">Course Title: ETABS</div>
         <div className="block ml-2 text-sm text-gray-600">Code: CE106</div>
@@ -184,7 +184,7 @@ const Home: NextPage = () => {
       <div className="pt-8">
       <div className="bg-white rounded-xl overflow-hidden lg:h-auto h-80 shadow-md relative hover:shadow-xl">
       <div className="relative w-auto h-48">
-        <Image src={"/8.jpg"} layout="fill"></Image></div>
+        <Image src={"/8.jpg"} layout="fill" alt="stew"></Image></div>
         <div className="text-md">
         <div className="ml-2 font-bold font-serif">Course Title: Revit Stucture Training - BIM Sturctural Detailing</div>
         <div className="block ml-2 text-sm text-gray-600">Code: CE107</div>
@@ -200,7 +200,7 @@ const Home: NextPage = () => {
       <div className="pt-8">
       <div className="bg-white rounded-xl overflow-hidden lg:h-auto h-80 shadow-md relative hover:shadow-xl">
       <div className="relative w-auto h-48">
-        <Image src={"/9.jpg"} layout="fill"></Image></div>
+        <Image src={"/9.jpg"} layout="fill" alt="stew"></Image></div>
         <div className="text-md">
         <div className="ml-2 font-bold font-serif">Course Title: Quantity Surveying</div>
         <div className="block ml-2 text-sm text-gray-600">Code: CE108</div>

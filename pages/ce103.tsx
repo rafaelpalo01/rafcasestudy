@@ -14,7 +14,7 @@ const electricalSupervise: NextPage = () => {
         <div>Training by Raf</div>
         </div>
         <div className="relative w-48 h-36 ml-80">
-        <Image src={"/4.jpg"} layout="fill"></Image>
+        <Image src={"/4.jpg"} layout="fill" alt="stew"></Image>
       </div>
       </div>
       <div className="grid grid-cols-2 pt-16">
