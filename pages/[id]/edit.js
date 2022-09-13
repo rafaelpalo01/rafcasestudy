@@ -23,7 +23,7 @@ const EditCourse = ({ course }) => {
 
     const updateCourse = async () => {
         try {
-            const res = await fetch(`https://rafcasestudy.vercel.app/api/civilcourse/${router.query.id}`, {
+            const res = await fetch(`https://finalcasestudyrdp.vercel.app/api/civilcourse/${router.query.id}`, {
                 method: 'PUT',
                 headers: {
                     "Accept": "application/json",
@@ -142,7 +142,7 @@ const EditCourse = ({ course }) => {
 }
 
 EditCourse.getInitialProps = async ({ query: { id } }) => {
-    const res = await fetch(`https://rafcasestudy.vercel.app/api/civilcourse/${id}`);
+    const res = await fetch(`https://finalcasestudyrdp.vercel.app/api/civilcourse/${id}`);
     const { data } = await res.json();
 
     return { course: data }

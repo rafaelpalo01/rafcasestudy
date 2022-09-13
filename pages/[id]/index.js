@@ -22,7 +22,7 @@ const Course = ({ course }) => {
     const deleteCourse = async () => {
         const courseId = router.query.id;
         try {
-            const deleted = await fetch(`https://rafcasestudy.vercel.app/api/civilcourse/${courseId}`, {
+            const deleted = await fetch(`https://finalcasestudyrdp.vercel.app/api/civilcourse/${courseId}`, {
                 method: "Delete"
             });
 
@@ -74,7 +74,7 @@ const Course = ({ course }) => {
 }
 
 Course.getInitialProps = async ({ query: { id } }) => {
-    const res = await fetch(`https://rafcasestudy.vercel.app/api/civilcourse/${id}`);
+    const res = await fetch(`https://finalcasestudyrdp.vercel.app/api/civilcourse/${id}`);
     const { data } = await res.json();
 
     return { course: data }
