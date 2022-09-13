@@ -56,7 +56,7 @@ const Enroll = ({ courses }) => {
   }
   
   Enroll.getInitialProps = async () => {
-    const res = await fetch('http://localhost:3000/api/civilcourse');
+    const res = await fetch('https://rafcasestudy.vercel.app//api/civilcourse');
     const { data } = await res.json();
   
     return { courses: data }
