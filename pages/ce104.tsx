@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const electricalSupervise: NextPage = () => {
   return (
-    <div>
+    <div className='pb-20'>
       <div className="grid grid-cols-2 border-b-2 border-gray-300 pb-6 pt-36">
       <div className="ml-20">
         <div className="font-bold text-2xl">Heavy Equipment Maintenance</div>
