@@ -111,7 +111,7 @@ const NewCourse = () => {
                                 fluid
                                 error={errors.contact ? { content: 'Please enter your Course Code', pointing: 'below', className: 'text-red-400 uppercase' } : null}
                                 label='Course Code'
-                                placeholder='Code'
+                                placeholder='ex. CE108'
                                 name='contact'
                                 onChange={handleChange}
                             />
