@@ -22,7 +22,7 @@ const Course = ({ course }) => {
     const deleteCourse = async () => {
         const courseId = router.query.id;
         try {
-            const deleted = await fetch(`https://rafcasestudy.vercel.app/civilcourse/${courseId}`, {
+            const deleted = await fetch(`https://rafcasestudy.vercel.app/api/civilcourse/${courseId}`, {
                 method: "Delete"
             });
 
