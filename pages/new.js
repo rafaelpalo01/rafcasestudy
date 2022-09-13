@@ -23,7 +23,7 @@ const NewCourse = () => {
 
     const enrollCourse = async () => {
         try {
-            const res = await fetch('http://localhost:3000/api/civilcourse', {
+            const res = await fetch('https://rafcasestudy.vercel.app/api/civilcourse', {
                 method: 'POST',
                 headers: {
                     "Accept": "application/json",
