@@ -2,10 +2,19 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useSession } from 'next-auth/react';
+import { useEffect } from 'react';
+import Router from "next/router";
 
 
 
-const SupervisingHeavy: NextPage = () => {
+const SupervisingHeavy: NextPage = (): JSX.Element => {
+  const { status, data } = useSession();
+
+    useEffect(() => {
+        if(status === "unauthenticated") Router.replace("/auth/signin");
+    }, [status]);
+     if(status === "authenticated")
   return ( 
     <div className='pb-20'>
       <div className="grid grid-cols-2 border-b-2 border-gray-300 pb-6 pt-36">
@@ -54,5 +63,6 @@ const SupervisingHeavy: NextPage = () => {
       </div>
     </div>
   )
+  return <div>loading</div>;
 }
 export default SupervisingHeavy
