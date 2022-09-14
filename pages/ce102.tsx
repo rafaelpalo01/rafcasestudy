@@ -55,5 +55,4 @@ const electricalSupervise: NextPage = (): JSX.Element => {
   )
   return <div>loading</div>;
 }
-
 export default electricalSupervise
