@@ -12,7 +12,7 @@ const NewCourse = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [errors, setErrors] = useState({});
     const router = useRouter();
-    const { status, data } = useSession();
+    
 
     useEffect(() => {
         if (isSubmitting) {
@@ -75,10 +75,7 @@ const NewCourse = () => {
         }
         return err;
     }
-    useEffect(() => {
-        if(status === "unauthenticated") Router.replace("/auth/signin");
-    }, [status]);
-     if(status === "authenticated")
+
     return (
         <div className="bg-slate-200">
         <div className="form-container ml-20 pb-20">
