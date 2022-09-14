@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 export default withAuth(
   function middleware(req: NextRequest) {
     // return NextResponse
-    return NextResponse.rewrite(new URL("", req.url));
+    return NextResponse.rewrite(new URL("https://finalcasestudyrdp.vercel.app/", req.url));
   },
   {
     callbacks: {
@@ -15,4 +15,4 @@ export default withAuth(
   }
 );
 
-export const config = { matcher: ["/ce101", "/admin"] };
+export const config = { matcher: ["/ce101"] };

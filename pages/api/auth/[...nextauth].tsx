@@ -8,6 +8,7 @@ const authOptions: NextAuthOptions = {
   },
    
   providers:  [
+   
     CredentialsProvider({
       type: "credentials",
       credentials: {},
@@ -27,7 +28,7 @@ const authOptions: NextAuthOptions = {
           id: "1234",
           name: "Rafael Palo",
           email: "raf@gmail.com",
-          role: "admin",
+          role: "admin"
         };
       },
     }),
@@ -38,7 +39,7 @@ const authOptions: NextAuthOptions = {
     // error: '/auth/error',
     // signOut: '/auth/signout'
   },
-  secret: process.env.NEXTAUTH_SECRET,
+  
   callbacks: {
     jwt(params) {
       // update token
