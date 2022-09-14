@@ -15,4 +15,4 @@ export default withAuth(
   }
 );
 
-export const config = { matcher: ["/ce101"] };
+export const config = { matcher: ["/ce101", "/admin"] };
