@@ -7,6 +7,7 @@ const authOptions: NextAuthOptions = {
     strategy: "jwt",
   },
   
+  secret:process.env.SECRET, 
   providers:  [
     CredentialsProvider({
       type: "credentials",
@@ -32,6 +33,7 @@ const authOptions: NextAuthOptions = {
       },
     }),
   ],
+  
   pages: {
     signIn: "/auth/signin",
     // error: '/auth/error',
