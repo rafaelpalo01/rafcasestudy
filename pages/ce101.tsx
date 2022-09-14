@@ -8,17 +8,17 @@ import Link from 'next/link'
 const SupervisingHeavy: NextPage = () => {
   return <div>
     <div className='pb-20'>
-      <div className="grid grid-cols-2 border-b-2 border-gray-300 pb-6 pt-36">
-      <div className="ml-20">
+      <div className="md:grid md:grid-cols-2 border-b-2 border-gray-300 pb-6 pt-36">
+      <div className="md:ml-20">
         <div className="font-bold text-2xl">Supervising Heavy Equipment Operations During Construction</div>
         <div>Training by Raf</div>
         </div>
-        <div className="relative w-48 h-36 ml-80">
+        <div className="relative w-48 h-36 md:ml-80">
         <Image src={"/2.jpg"} layout="fill" alt="stew"></Image>
       </div>
       </div>
-      <div className="grid grid-cols-2 pt-16">
-        <div className="ml-20">
+      <div className="md:grid md:grid-cols-2 pt-16">
+        <div className="md:ml-20">
         <div className="font-bold text-xl">Details</div>
         <div className="font-bold mt-4 mb-8">Supervising Heavy Equipment Operations During Construction</div>
         <div className="mb-4">The course is designed for two days, 25% lecture and 75% practicum to give the
@@ -39,7 +39,7 @@ const SupervisingHeavy: NextPage = () => {
         <div>2. Perform the skill in operating the bulldozer productively.</div>
         <div>3. Observe safety in operating the equipment.</div>
         </div>
-        <div className="ml-80 relative">
+        <div className="md:ml-80 relative pt-4">
         <Link href="/new"><div className="hover:shadow-lg text-3xl cursor-pointer hover:bg-blue-800 bg-blue-600 absolute rounded-none text-center font-bold text-gray-200 p-2">Enroll Now</div></Link>
         <div className="flex">
         <svg className="mt-20 w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V4zM8 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1H9a1 1 0 01-1-1V4zM15 3a1 1 0 00-1 1v12a1 1 0 001 1h2a1 1 0 001-1V4a1 1 0 00-1-1h-2z"></path></svg>

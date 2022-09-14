@@ -7,17 +7,17 @@ import Link from 'next/link'
 const Home: NextPage = () => {
   return (
     <div>
-      <div className="relative w-auto h-96">
+      <div className="relative md:w-auto md:h-96 w-auto h-48">
       <Image src={"/1.jpg"} layout="fill" alt="stew"></Image>
       </div>
-      <div className="bg-gray-200 border-b border text-gray-400 pl-2 pb-2 pt-2">Construction and Civil Engineering Training Courses</div>
+      <div className="bg-gray-200 border-b border text-gray-400 pl-2 pb-2 pt-2 text-sm md:text-lg">Construction and Civil Engineering Training Courses</div>
 
-      <div className="grid grid-cols-2">
+      <div className="md:grid md:grid-cols-2">
       <div>
-        <div className="text -left pt-20 ml-48">
+        <div className="md:text-left pt-20 md:ml-48 text-center">
         <div className="font-bold text-4xl text-gray-700">WELCOME TO</div>
         <div className="font-bold text-2xl pb-6 underline underline-offset-8 decoration-gray-300 text-gray-700">RAFAEL HOOD CREW</div>
-        <div className="pb-20 text-slate-400">
+        <div className="md:pb-20 text-slate-400">
         <div>Training is important to the achievements of a business.</div>
         <div>maybe its most positive profit is best workers. a</div>
         <div>corporation develop the potential of associate worker,</div>
@@ -27,25 +27,25 @@ const Home: NextPage = () => {
         <div>worker.</div></div>
         </div>
       </div>
-      <div className="sticky w-96 h-80 ml-28 mt-4 scale-150">
+      <div className="sticky md:w-96 md:h-80 md:ml-28 mt-4 md:scale-150 h-96 w-auto">
       <Image src={"/city.png"} layout="fill" alt="stew"></Image>
       </div>
       </div>
 
       <div className="relative">
-      <div className="relative w-auto h-96">
+      <div className="relative md:w-auto md:h-96 w-auto h-80">
       <Image src={"/sunset.jpg"} layout="fill" alt="stew"></Image>
       </div>
-      <div className="absolute top-20 ml-80">
-      <div className="text-white text-center pb-2">Register Now ! Training Programs In Philippines</div>
-      <div className="text-white text-left font-bold text-4xl border-t-4 text center">MAKE YOUR SUCCESS A PRIORITY.</div></div>
+      <div className="absolute top-20 md:ml-80 text-center">
+      <div className="text-white md:text-center pb-2">Register Now ! Training Programs In Philippines</div>
+      <div className="text-white text-left font-bold text-4xl border-t-4 text-center">MAKE YOUR SUCCESS A PRIORITY.</div></div>
       </div>
       <div className="bg-yellow-700 text-white">
       <div className="flex ml-20 pt-28">
       <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path></svg>
         <div className="ml-2 font-bold text-4xl pb-10">UPCOMING TRAINING COURSES</div>
       </div>
-      <div className="grid grid-cols-2 pb-28">
+      <div className="md:grid md:grid-cols-2 pb-28">
       <div className="ml-28">
         <div className="uppercase font-bold text-xl pb-4">Advanced Concrete Technology</div>
         <div className="pb-1 text-slate-200">This training course will be held</div>

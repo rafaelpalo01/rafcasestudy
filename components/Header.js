@@ -11,12 +11,12 @@ const Header = () => {
       {/* Header */}
       <div>
         <div className="bg-black text-white ">
-        <Link href="/"><h1 className="cursor-pointer leading-none text-xl font-bold uppercase px-64 pt-6">Rafael Hood Crew</h1></Link>
-        <Link href="/"><h2 className="cursor-pointer leading-3 border-b-4 border-amber-400 px-96 pb-6">PH Provider</h2></Link>
+        <Link href="/"><h1 className="cursor-pointer leading-none md:text-xl md:font-bold md:uppercase md:px-64 md:pt-6 px-2 px-10 pt-6">Rafael Hood Crew</h1></Link>
+        <Link href="/"><h2 className="cursor-pointer leading-3 border-b-4 border-amber-400 md:px-96 md:pb-6 pb-6 px-16">PH Provider</h2></Link>
       </div>
       </div>  
       {/* Nav Bar */}
-      <div className="pt-2 pb-2 flex justify-evenly font-bold">
+      <div className="pt-2 pb-2 md:flex md:justify-evenly font-bold">
         <div className="flex">
         <svg className="w-6 h-6 f" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
         <Link href="/"><div className="pl-1 cursor-pointer hover:text-gray-600 hover:underline hover:underline-offset-4 hover:decoration-4 hover:decoration-amber-400 transtition ease-out duration">Home</div></Link>
