@@ -3,12 +3,16 @@ import { useState, useEffect } from 'react';
 import fetch from 'isomorphic-unfetch';
 import { Button, Form, Loader } from 'semantic-ui-react';
 import { useRouter } from 'next/router';
+import { useSession } from 'next-auth/react';
+import { useEffect } from 'react';
+
 
 const NewCourse = () => {
     const [form, setForm] = useState({ firstName: '', lastName: '', email: '', contact: '', address: '' });
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [errors, setErrors] = useState({});
     const router = useRouter();
+    const { status, data } = useSession();
 
     useEffect(() => {
         if (isSubmitting) {
@@ -71,7 +75,10 @@ const NewCourse = () => {
         }
         return err;
     }
-
+    useEffect(() => {
+        if(status === "unauthenticated") Router.replace("/auth/signin");
+    }, [status]);
+     if(status === "authenticated")
     return (
         <div className="bg-slate-200">
         <div className="form-container ml-20 pb-20">
@@ -157,6 +164,7 @@ const NewCourse = () => {
         </div>
         </div>
     )
+    
 }
 
 export default NewCourse;

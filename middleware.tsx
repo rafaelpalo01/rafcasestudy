@@ -13,4 +13,4 @@ export default withAuth(
         }
     }
 );
-export const config = {matcher: ['/new', '/enroll']}
+export const config = {matcher: ['/ce107']}
