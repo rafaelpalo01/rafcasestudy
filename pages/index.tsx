@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { signIn } from "next-auth/react";
 
 
 
@@ -11,7 +12,7 @@ const Home: NextPage = () => {
   return (
     <div>
       
-      
+
       <div className="relative w-auto h-96">
       <Image src={"/1.jpg"} layout="fill" alt="stew"></Image>
       </div>
@@ -41,9 +42,9 @@ const Home: NextPage = () => {
       <div className="relative w-auto h-96">
       <Image src={"/sunset.jpg"} layout="fill" alt="stew"></Image>
       </div>
-      <div className="absolute top-20 ml-80 text-center">
-      <div className="text-white font-bold text-4xl border-t-4">MAKE YOUR SUCCESS A PRIORITY.</div>
-      <div className="text-white">Register Now ! Training Programs In Philippines</div></div>
+      <div className="absolute top-20 ml-80">
+      <div className="text-white text-center pb-2">Register Now ! Training Programs In Philippines</div>
+      <div className="text-white text-left font-bold text-4xl border-t-4 text center">MAKE YOUR SUCCESS A PRIORITY.</div></div>
       </div>
       <div className="bg-yellow-700 text-white">
       <div className="flex ml-20 pt-28">
