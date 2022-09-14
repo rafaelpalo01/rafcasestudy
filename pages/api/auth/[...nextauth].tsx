@@ -2,10 +2,12 @@ import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 
 const authOptions: NextAuthOptions = {
+  
   session: {
     strategy: "jwt",
   },
-  providers: [
+  
+  secret: process.env.SECRET, providers:  [
     CredentialsProvider({
       type: "credentials",
       credentials: {},
@@ -16,15 +18,15 @@ const authOptions: NextAuthOptions = {
         };
         // perform you login logic
         // find out user from db
-        if (email !== "john@gmail.com" || password !== "1234") {
+        if (email !== "raf@gmail.com" || password !== "1234") {
           throw new Error("invalid credentials");
         }
 
         // if everything is fine
         return {
           id: "1234",
-          name: "John Doe",
-          email: "john@gmail.com",
+          name: "Rafael Palo",
+          email: "raf@gmail.com",
           role: "admin",
         };
       },
