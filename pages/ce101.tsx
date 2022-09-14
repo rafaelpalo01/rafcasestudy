@@ -7,13 +7,7 @@ import { useEffect } from 'react';
 import Router from "next/router";
 
 
-const SupervisingHeavy: NextPage = (): JSX.Element => {
-  const { status, data } = useSession();
-
-  useEffect(() => {
-      if(status === "unauthenticated") Router.replace("/auth/signin");
-  }, [status]);
-   if(status === "authenticated")
+const SupervisingHeavy: NextPage = () => {
   return ( 
     <div className='pb-20'>
       <div className="grid grid-cols-2 border-b-2 border-gray-300 pb-6 pt-36">
