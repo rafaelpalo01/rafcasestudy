@@ -24,7 +24,6 @@ const authOptions: NextAuthOptions = {
                     id: '1234', 
                     name: 'Rafael Palo', 
                     email: 'raf@gmail.com',
-                    role: 'admin'
                 };
             },
         }),
