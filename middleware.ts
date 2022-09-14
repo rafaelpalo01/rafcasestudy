@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 export default withAuth(
   function middleware(req: NextRequest) {
     // return NextResponse
-    return NextResponse.rewrite(new URL("/admin", req.url));
+    return NextResponse.rewrite(new URL("/ce101", req.url));
   },
   {
     callbacks: {
@@ -15,4 +15,4 @@ export default withAuth(
   }
 );
 
-export const config = { matcher: ["/admin"] };
+export const config = { matcher: ["/ce101"] };
