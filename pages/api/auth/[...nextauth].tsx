@@ -6,8 +6,7 @@ const authOptions: NextAuthOptions = {
   session: {
     strategy: "jwt",
   },
-  
-  secret:process.env.SECRET, 
+   
   providers:  [
     CredentialsProvider({
       type: "credentials",
@@ -39,6 +38,7 @@ const authOptions: NextAuthOptions = {
     // error: '/auth/error',
     // signOut: '/auth/signout'
   },
+  secret: process.env.NEXTAUTH_SECRET,
   callbacks: {
     jwt(params) {
       // update token
