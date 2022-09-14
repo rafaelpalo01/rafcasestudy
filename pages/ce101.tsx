@@ -2,13 +2,10 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { FC } from "react";
 
-interface Props {}
 
-const SupervisingHeavy: FC<Props> = (props): JSX.Element => {
-  
 
+const SupervisingHeavy: NextPage = () => {
   return <div>
     <div className='pb-20'>
       <div className="grid grid-cols-2 border-b-2 border-gray-300 pb-6 pt-36">
