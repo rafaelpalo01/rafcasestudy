@@ -2,9 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { useSession } from 'next-auth/react';
-import { useEffect } from 'react';
-import Router from "next/router";
+
 
 
 const SupervisingHeavy: NextPage = () => {
@@ -56,7 +54,5 @@ const SupervisingHeavy: NextPage = () => {
       </div>
     </div>
   )
-  return <div>loading</div>;
 }
-
 export default SupervisingHeavy

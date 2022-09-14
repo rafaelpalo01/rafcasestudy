@@ -14,20 +14,31 @@ const authOptions: NextAuthOptions = {
                     email: string;
                     password: string;
                 };
-                if(email !== "rafael@gmail.com" && password !== "1234") {
+                if(email == "rafael@gmail.com" && password == "1234") {
+                    
+                }
+                else {
                     throw new Error('invalid credentials')
                 }
                 return {
                     id: '1234', 
                     name: 'Rafael Palo', 
                     email: 'raf@gmail.com',
-                    
+                    role: 'admin'
                 };
             },
         }),
     ],
     pages: {
         signIn: '/auth/signin',
+    },
+    callbacks:{
+        jwt(params){
+            if (params.user?.role){
+                params.token.role = params.user.role;
+            }
+            return params.token
+        },
     },
 };
 export default NextAuth(authOptions);
