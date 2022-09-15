@@ -11,7 +11,7 @@ const SupervisingHeavy: NextPage = () => {
       <div className="md:grid md:grid-cols-2 border-b-2 border-gray-300 pb-6 md:pt-36 pt-10">
       <div className="md:ml-20">
         <div className="font-bold text-2xl">Supervising Heavy Equipment Operations During Construction</div>
-        <div>Training by Raf</div>
+        <div>Training by RAf</div>
         </div>
         <div className="relative w-48 h-36 md:ml-80">
         <Image src={"/2.jpg"} layout="fill" alt="stew"></Image>
