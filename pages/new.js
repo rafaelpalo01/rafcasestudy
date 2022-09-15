@@ -129,7 +129,7 @@ const NewCourse = () => {
                             <div className="pt-6 pb-10">
                             <Button className="bg-amber-600 hover:bg-amber-800 rounded p-1 text-white" type='submit'>Enroll</Button></div>
                             </div>
-                            <div className='flex ml-20'>
+                            <div className='md:flex md:ml-20'>
                                 <div className='text-center'>
                             <div className='font-bold align-center pb-1 border-b-4 border-gray-600'>Course Code</div>
                             <div className='pt-4 border-b-2 border-gray-300'>CE101</div>
