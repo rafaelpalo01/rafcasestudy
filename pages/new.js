@@ -77,7 +77,7 @@ const NewCourse = () => {
 
     return (
         <div className="bg-slate-200">
-        <div className="form-container ml-20 pb-20">
+        <div className="form-container md:ml-20 pb-20 ml-4">
             <h1 className="font-bold text-2xl pt-6">Enroll Course</h1>
             <div>
                 {
