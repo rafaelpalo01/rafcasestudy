@@ -15,7 +15,7 @@ const authOptions: NextAuthOptions = {
                     password: string;
                 };
                 if(email !== "rafael@gmail.com" && password !== "1234") {
-                    
+                    throw new Error('invalid credentials')
                 }
                 return {
                     id: '1234', 
