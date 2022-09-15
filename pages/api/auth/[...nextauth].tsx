@@ -1,7 +1,6 @@
 import NextAuth, {NextAuthOptions} from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 
-
 const authOptions: NextAuthOptions = {
     session: {
         strategy: 'jwt'
@@ -15,17 +14,28 @@ const authOptions: NextAuthOptions = {
                     email: string;
                     password: string;
                 };
-                if(email !== "raf@gmail.com" && password !== "1234") {
-
+                if(email !== "rafael@gmail.com" && password !== "1234") {
                     throw new Error('invalid credentials')
                 }
-                return {id: '1234', name: 'Rafael Palo', email: 'raf@gmail.com'};
+                return {
+                    id: '1234', 
+                    name: 'Rafael Palo', 
+                    email: 'raf@gmail.com',
+                    role: 'admin'
+                };
             },
         }),
     ],
     pages: {
         signIn: '/auth/signin',
     },
+    callbacks:{
+        jwt(params){
+            if (params.user?.role){
+                params.token.role = params.user.role;
+            }
+            return params.token
+        },
+    },
 };
-
 export default NextAuth(authOptions);
