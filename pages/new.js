@@ -129,7 +129,7 @@ const NewCourse = () => {
                             <div className="pt-6 pb-10">
                             <Button className="bg-amber-600 hover:bg-amber-800 rounded p-1 text-white" type='submit'>Enroll</Button></div>
                             </div>
-                            <div className='flex ml-20'>
+                            <div className='flex md:ml-20 ml-2'>
                                 <div className='text-center'>
                             <div className='font-bold align-center pb-1 border-b-4 border-gray-600'>Course Code</div>
                             <div className='pt-4 border-b-2 border-gray-300'>CE101</div>
@@ -140,7 +140,7 @@ const NewCourse = () => {
                             <div className='pt-4 border-b-2 border-gray-300'>CE106</div>
                             <div className='pt-4 border-b-2 border-gray-300'>CE107</div>
                             <div className='pt-4 border-b-2 border-gray-300'>CE108</div></div>
-                            <div className='text-left ml-20'>
+                            <div className='text-left md:ml-20 ml-4'>
                             <div className='font-bold align-center pb-1 border-b-4 border-gray-600'>Course Title</div>
                             <div className=''>
                             <div className='pt-4 border-b-2 border-gray-300'>Supervising Heavy Equipment Operation During Construction</div>
