@@ -48,6 +48,5 @@ const electricalSupervise: NextPage = () => {
       </div>
     </div>
   )
-  
 }
 export default electricalSupervise

@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 
 const SupervisingHeavy: NextPage = () => {
-  return <div>
+  return(
     <div className='pb-20'>
       <div className="md:grid md:grid-cols-2 border-b-2 border-gray-300 pb-6 pt-36">
       <div className="md:ml-20">
@@ -53,7 +53,6 @@ const SupervisingHeavy: NextPage = () => {
         </div>
       </div>
     </div>
-    </div>;
-
+    )
 }
 export default SupervisingHeavy

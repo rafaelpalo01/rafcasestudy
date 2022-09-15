@@ -41,22 +41,22 @@ const Home: NextPage = () => {
       <div className="text-white text-left font-bold text-4xl border-t-4 text-center">MAKE YOUR SUCCESS A PRIORITY.</div></div>
       </div>
       <div className="bg-yellow-700 text-white">
-      <div className="flex ml-20 pt-28">
-      <svg className="w-16 h-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path></svg>
-        <div className="ml-2 font-bold text-4xl pb-10">UPCOMING TRAINING COURSES</div>
+      <div className="flex md:ml-20 md:pt-28 ml-10 pt-10">
+      <svg className="md:w-16 md:h-16 h-8 w-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path></svg>
+        <div className="md:ml-2 font-bold md:text-4xl pb-10 text-xl">UPCOMING TRAINING COURSES</div>
       </div>
-      <div className="md:grid md:grid-cols-2 pb-28">
-      <div className="ml-28">
-        <div className="uppercase font-bold text-xl pb-4">Advanced Concrete Technology</div>
+      <div className="md:grid md:grid-cols-2 md:pb-28 pb-10">
+      <div className="md:ml-28 ml-10">
+        <div className="uppercase font-bold md:text-xl pb-4 text-md">Advanced Concrete Technology</div>
         <div className="pb-1 text-slate-200">This training course will be held</div>
         <div className="pb-1 text-slate-200">on 12 - October - 2022.</div>
         <div className="flex">
         <div className="text-sm text-slate-200 cursor-pointer">READ MORE</div>
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"></path></svg></div>
       </div>
-      <div className="ml-28">
-        <div className="uppercase font-bold text-xl">Advanced Materials For Construction</div>
-        <div className="uppercase font-bold text-xl pb-4">and Repair Of Concrete</div>
+      <div className="md:ml-28 ml-10">
+        <div className="uppercase font-bold md:text-xl text-md">Advanced Materials For Construction</div>
+        <div className="uppercase font-bold md:text-xl pb-4 text-md">and Repair Of Concrete</div>
         <div className="pb-1 text-slate-200">This training course will be held</div>
         <div className="pb-1 text-slate-200">on 3 - November - 2022.</div>
         <div className="flex">
