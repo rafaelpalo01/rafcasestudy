@@ -8,7 +8,7 @@ import Link from 'next/link'
 const SupervisingHeavy: NextPage = () => {
   return(
     <div className='pb-20'>
-      <div className="md:grid md:grid-cols-2 border-b-2 border-gray-300 pb-6 pt-36">
+      <div className="md:grid md:grid-cols-2 border-b-2 border-gray-300 pb-6 md:pt-36 pt-10">
       <div className="md:ml-20">
         <div className="font-bold text-2xl">Supervising Heavy Equipment Operations During Construction</div>
         <div>Training by Raf</div>
@@ -17,7 +17,7 @@ const SupervisingHeavy: NextPage = () => {
         <Image src={"/2.jpg"} layout="fill" alt="stew"></Image>
       </div>
       </div>
-      <div className="md:grid md:grid-cols-2 pt-16">
+      <div className="md:grid md:grid-cols-2 md:pt-16">
         <div className="md:ml-20">
         <div className="font-bold text-xl">Details</div>
         <div className="font-bold mt-4 mb-8">Supervising Heavy Equipment Operations During Construction</div>

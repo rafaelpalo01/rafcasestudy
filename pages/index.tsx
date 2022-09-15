@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <div className="md:grid md:grid-cols-2">
       <div>
-        <div className="md:text-left pt-20 md:ml-48 text-center">
+        <div className="md:text-left md:pt-20 md:ml-48 text-center">
         <div className="font-bold text-4xl text-gray-700">WELCOME TO</div>
         <div className="font-bold text-2xl pb-6 underline underline-offset-8 decoration-gray-300 text-gray-700">RAFAEL HOOD CREW</div>
         <div className="md:pb-20 text-slate-400">
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         <div>worker.</div></div>
         </div>
       </div>
-      <div className="sticky md:w-96 md:h-80 md:ml-28 mt-4 md:scale-150 h-96 w-auto">
+      <div className="sticky md:w-96 md:h-80 md:ml-28 md:mt-4 md:scale-150 h-80 w-auto">
       <Image src={"/city.png"} layout="fill" alt="stew"></Image>
       </div>
       </div>
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
       </div>
       
       {/* Courses */} 
-      <div className="grid lg:grid-cols-4 pb-8 gap-2 pl-6 pr-6">
+      <div className="md:grid md:grid-cols-4 pb-8 gap-2 pl-6 pr-6">
       <div className="pt-8">
       <div className="bg-white rounded-xl overflow-hidden lg:h-auto h-80 shadow-md relative hover:shadow-xl">
       <div className="relative w-auto h-48">
